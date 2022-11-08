@@ -1,0 +1,50 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+.orange-color{
+    color: rgba(255, 166, 0, 0.842);
+}
+.flexible-container{
+    display: flex;
+    margin: 10px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.linkedin-button{
+    border-radius: 3%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+.full-web{
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
